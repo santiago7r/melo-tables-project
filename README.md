@@ -95,4 +95,4 @@ randomly generated data. The `-` button removes the last block added.
 
 ### Deploy to Vercel, check the project online: 
 
-[CLICK HERE!](http://localhost:3000/)
+[CLICK HERE!](https://tables-melo.vercel.app/)
