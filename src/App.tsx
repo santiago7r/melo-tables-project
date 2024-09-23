@@ -10,7 +10,7 @@ const App: React.FC = () => {
   const blocks = useSelector((state: RootState) => state.blocks);
 
   return (
-    <div className="App">
+    <div className="app">
       <h1 className="title">Prueba técnica</h1>
       <div className="blocks-container">
         {blocks.map((block, index) => (

@@ -31,9 +31,6 @@ const blocksSlice = createSlice({
   },
 });
 
-
-console.log('BLOCKS wt:', blocksSlice.getInitialState)
-
 export const { addBlock, removeBlock } = blocksSlice.actions;
 
 const store = configureStore({
