@@ -3,40 +3,66 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  --controls-color: #4d7dcf;
+  --less-button-bg: #fce8da;
+  --more-button-bg: #cbe3ba;
+  --table-border: #acb5be;
+  --title: #699a3b;
+  --card-bg: #e2eef9;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.title {
+  color: var(--title);
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.blocks-container {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(3, auto);
 }
 
 .card {
-  padding: 2em;
+  margin-bottom: 10px;
 }
 
-.read-the-docs {
-  color: #888;
+.card-and-total {
+  background-color: var(--card-bg);
+  border-radius: 25px;
+  padding: 16px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid var(--table-border);
+  padding: 8px;
+}
+
+.total {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.controls {
+  margin-top: 20px;
+}
+
+.controls .less {
+  background-color: var(--less-button-bg);
+  color: var(--controls-color);
+  font-weight: 900;
+}
+
+.controls .more {
+  background-color: var(--more-button-bg);
+  color: var(--controls-color);
+  font-weight: 900;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 0 10px;
 }
