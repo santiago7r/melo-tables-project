@@ -20,7 +20,7 @@ const App: React.FC = () => {
       </div>
       <div className="controls">
         <Button label='-' className="less" onClick={() => dispatch(removeBlock())} />
-        <button className="more" onClick={() => dispatch(addBlock())}>+</button>
+        <Button label='+' className="more" onClick={() => dispatch(addBlock())} />
       </div>
     </div>
   );
