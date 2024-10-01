@@ -11,6 +11,10 @@ This project is a technical test to develop a React application that dynamically
 - [Example Tables](#example-tables)
 - [Deploy to vercel](#example-tables)
 
+### Deploy to Vercel, check the project online: 
+
+[CLICK HERE!](https://tables-melo.vercel.app/)
+
 ## Overview
 
 The application allows the user to dynamically manage blocks that contain tables with randomly generated income and expense data. Each block consists of a table with two sections:
@@ -91,8 +95,3 @@ Here’s an example of what the tables will look like when blocks are generated:
 When you press the `+` button, a new block similar to the one above is created with 
 randomly generated data. The `-` button removes the last block added.
 ```
-
-
-### Deploy to Vercel, check the project online: 
-
-[CLICK HERE!](https://tables-melo.vercel.app/)
