@@ -4,6 +4,7 @@ import React from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { addBlock, removeBlock, RootState } from './redux/store';
 import Card from './components/Card';
+import Button from './components/Button';
 
 const App: React.FC = () => {
   const dispatch = useDispatch();
@@ -18,7 +19,7 @@ const App: React.FC = () => {
         ))}
       </div>
       <div className="controls">
-        <button className="less" onClick={() => dispatch(removeBlock())}>-</button>
+        <Button label='-' className="less" onClick={() => dispatch(removeBlock())} />
         <button className="more" onClick={() => dispatch(addBlock())}>+</button>
       </div>
     </div>
